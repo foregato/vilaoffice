@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0B0F17;
+}
+
+::selection {
+  background: #C7A756;
+  color: #0B0F17;
+}
+
+/* Divisor fino dourado, usado como assinatura visual da marca */
+.gold-rule {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #C7A756, transparent);
+}
+
+.gold-rule-left {
+  height: 1px;
+  width: 48px;
+  background: #C7A756;
+}
+
+.text-outline-gold {
+  -webkit-text-stroke: 1px #C7A756;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(16px);
+  animation: reveal-up 0.8s ease forwards;
+}
+
+@keyframes reveal-up {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Card sutil com borda dourada ao hover */
+.card-vila {
+  background: #121826;
+  border: 1px solid rgba(199, 167, 86, 0.15);
+  transition: border-color 0.3s ease, transform 0.3s ease;
+}
+.card-vila:hover {
+  border-color: rgba(199, 167, 86, 0.55);
+  transform: translateY(-4px);
+}
+
+.btn-gold {
+  background: #C7A756;
+  color: #0B0F17;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+.btn-gold:hover {
+  background: #E4CE94;
+}
+
+.btn-outline {
+  border: 1px solid rgba(246, 243, 236, 0.35);
+  color: #F6F3EC;
+  transition: border-color 0.3s ease, background 0.3s ease;
+}
+.btn-outline:hover {
+  border-color: #C7A756;
+  background: rgba(199, 167, 86, 0.08);
+}
