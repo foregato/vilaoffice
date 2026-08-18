@@ -12,9 +12,9 @@ export const salas = [
     info: [],
     foto: null,
     ocupante: {
-      nome: '', // TODO: preencher nome do profissional/empresa
-      servico: '', // TODO: preencher serviço/área de atuação
-      instagram: '', // TODO: @instagram
+      nome: 'Graziela Foregato', // TODO: preencher nome do profissional/empresa
+      servico: 'Design de Sombrancelha', // TODO: preencher serviço/área de atuação
+      instagram: '@grazielaforegato', // TODO: @instagram
       site: '', // TODO: site (opcional)
     },
   },
@@ -41,9 +41,9 @@ export const salas = [
     info: [],
     foto: null,
     ocupante: {
-      nome: '', // TODO
-      servico: '', // TODO
-      instagram: '', // TODO
+      nome: 'Emilyn Karoline', // TODO
+      servico: 'Design de Sombrancelha', // TODO
+      instagram: '@emilynkarolinebeautyclinic', // TODO
       site: '',
     },
   },
@@ -54,9 +54,9 @@ export const salas = [
     info: [],
     foto: null,
     ocupante: {
-      nome: '', // TODO
-      servico: '', // TODO
-      instagram: '', // TODO
+      nome: 'Nathiara Oliveira', // TODO
+      servico: 'Lash Designer', // TODO
+      instagram: '@cilios_nathiara_campinas', // TODO
       site: '',
     },
   },
@@ -67,9 +67,9 @@ export const salas = [
     info: [],
     foto: null,
     ocupante: {
-      nome: '', // TODO
-      servico: '', // TODO
-      instagram: '', // TODO
+      nome: 'Marcelle Pacheco', // TODO
+      servico: 'Nail Designer', // TODO
+      instagram: '@marcellepacheconails', // TODO
       site: '',
     },
   },
