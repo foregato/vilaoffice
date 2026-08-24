@@ -52,7 +52,7 @@ export const salas = [
     status: 'ocupada',
     descricao: 'Lash Designer com 8 anos de experiência, atuando com excelência na aplicação de extensão de cílios e na ministração de cursos profissionalizantes.',
     info: [],
-    foto: null,
+    foto: "Profissionais/Nathiara.PNG",
     ocupante: {
       nome: 'Nathiara Oliveira', // TODO
       servico: 'Lash Designer', // TODO
