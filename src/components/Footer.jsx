@@ -22,7 +22,7 @@ export default function Footer() {
             © {new Date().getFullYear()} Vila Office. Todos os direitos reservados.
           </p>
           <p className="text-offwhite/25 text-xs mt-1">
-            Desenvolvido por forecatt
+            Desenvolvido por Forecatt
           </p>
         </div>
       </div>
