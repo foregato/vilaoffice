@@ -1,4 +1,4 @@
-s
+
 export const config = {
   nome: 'Vila Office',
   endereco: 'Rua Càiri, 213 — Vila Aeroporto, Campinas/SP',
