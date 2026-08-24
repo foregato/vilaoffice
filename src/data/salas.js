@@ -29,7 +29,7 @@ export const salas = [
   {
     numero: 3,
     status: 'disponivel', // TODO: confirmar status
-    descricao: '', // TODO: adicionar descrição
+    descricao: 'Sala comercial individual, com banheiro privativo.', // TODO: adicionar descrição
     info: [],
     foto: "Salas/Sala3.jpg",
     ocupante: null,
