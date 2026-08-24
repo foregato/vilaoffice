@@ -31,7 +31,7 @@ export const salas = [
     status: 'disponivel', // TODO: confirmar status
     descricao: '', // TODO: adicionar descrição
     info: [],
-    foto: "/Salas/Sala3.HEIC",
+    foto: "Salas/Sala3.HEIC",
     ocupante: null,
   },
   {
@@ -78,7 +78,7 @@ export const salas = [
     status: 'disponivel', // TODO: confirmar status
     descricao: '', // TODO: adicionar descrição
     info: [],
-    foto: "/Salas/Sala7.HEIC",
+    foto: "Salas/Sala7.HEIC",
     ocupante: null,
   },
   {
@@ -86,7 +86,7 @@ export const salas = [
     status: 'disponivel', // TODO: confirmar status
     descricao: '', // TODO: adicionar descrição
     info: [],
-    foto: "/Salas/Sala8.HEIC",
+    foto: "Salas/Sala8.HEIC",
     ocupante: null,
   },
   {
@@ -94,7 +94,7 @@ export const salas = [
     status: 'disponivel', // TODO: confirmar status
     descricao: '', // TODO: adicionar descrição
     info: [],
-    foto: "/Salas/Sala9.HEIC",
+    foto: "Salas/Sala9.HEIC",
     ocupante: null,
   },
   {
