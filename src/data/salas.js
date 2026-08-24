@@ -63,7 +63,7 @@ export const salas = [
   {
     numero: 6,
     status: 'ocupada',
-    descricao: '',
+    descricao: 'Atuo com alongamento seguro e durável, banho de gel que fortalece e garante brilho intenso, blindagem para proteger unhas fragilizadas e esmaltação em gel com acabamento impecável e longa duração.',
     info: [],
     foto: null,
     ocupante: {
@@ -76,7 +76,7 @@ export const salas = [
   {
     numero: 7,
     status: 'disponivel', // TODO: confirmar status
-    descricao: '', // TODO: adicionar descrição
+    descricao: 'Sala comercial individual, com banheiro privativo.', // TODO: adicionar descrição
     info: [],
     foto: "Salas/Sala7.jpg",
     ocupante: null,
@@ -84,7 +84,7 @@ export const salas = [
   {
     numero: 8,
     status: 'disponivel', // TODO: confirmar status
-    descricao: '', // TODO: adicionar descrição
+    descricao: 'Sala comercial individual, com banheiro privativo.', // TODO: adicionar descrição
     info: [],
     foto: "Salas/Sala8.jpg",
     ocupante: null,
@@ -92,7 +92,7 @@ export const salas = [
   {
     numero: 9,
     status: 'disponivel', // TODO: confirmar status
-    descricao: '', // TODO: adicionar descrição
+    descricao: 'Sala comercial individual, com banheiro privativo. ', // TODO: adicionar descrição
     info: [],
     foto: "Salas/Sala9.jpg",
     ocupante: null,
