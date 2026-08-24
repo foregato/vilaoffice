@@ -37,9 +37,9 @@ export const salas = [
   {
     numero: 4,
     status: 'ocupada',
-    descricao: '',
+    descricao: 'Especialista em sobrancelhas e Brow Lamination há 5 anos, com foco em naturalidade, segurança e responsabilidade.',
     info: [],
-    foto: null,
+    foto: "Profissionais/Emilyn.PNG",
     ocupante: {
       nome: 'Emilyn Karoline', // TODO
       servico: 'Design de Sombrancelha', // TODO
