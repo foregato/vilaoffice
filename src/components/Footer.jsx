@@ -21,6 +21,17 @@ export default function Footer() {
           <p className="text-offwhite/30 text-xs mt-2">
             © {new Date().getFullYear()} Vila Office. Todos os direitos reservados.
           </p>
+          <p className="text-offwhite/25 text-xs mt-1">
+            Desenvolvido por{' '}
+            <a
+              href="https://github.com/foregato"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-offwhite/40 hover:text-gold transition-colors"
+            >
+              forecatt
+            </a>
+          </p>
         </div>
       </div>
     </footer>
