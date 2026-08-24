@@ -20,7 +20,7 @@ export const salas = [
   },
   {
     numero: 2,
-    status: 'disponivel',
+    status: 'ocupada',
     descricao: 'Sala comercial individual, sem banheiro privativo, com acesso pela recepção.',
     info: [],
     foto: null,
@@ -50,7 +50,7 @@ export const salas = [
   {
     numero: 5,
     status: 'ocupada',
-    descricao: '',
+    descricao: 'Lash Designer com 8 anos de experiência, atuando com excelência na aplicação de extensão de cílios e na ministração de cursos profissionalizantes.',
     info: [],
     foto: null,
     ocupante: {
@@ -99,7 +99,7 @@ export const salas = [
   },
   {
     numero: 10,
-    status: 'disponivel', // TODO: confirmar status
+    status: 'ocupada', // TODO: confirmar status
     descricao: '', // TODO: adicionar descrição
     info: [],
     foto: null,
